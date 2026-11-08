@@ -1,0 +1,1 @@
+fastapi>=0.115,<1.0\npsycopg2-binary==2.9.11\nrequests==2.32.5\npython-dotenv==1.2.1\n

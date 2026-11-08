@@ -1,0 +1,12 @@
+[project]
+name = "personal-telegram-reminder-bot"
+version = "1.0.0"
+requires-python = ">=3.12"
+dependencies = [
+    "fastapi>=0.115,<1.0",
+    "psycopg2-binary==2.9.11",
+    "requests==2.32.5",
+]
+
+[tool.vercel]
+entrypoint = "api.index:app"
