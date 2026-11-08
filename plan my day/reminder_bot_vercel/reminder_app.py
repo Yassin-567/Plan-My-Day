@@ -7,7 +7,7 @@ from zoneinfo import ZoneInfo
 
 import psycopg2
 from psycopg2.extras import RealDictCursor, Json
-import requests
+import requests #g
 
 log = logging.getLogger("reminder-bot")
 logging.basicConfig(level=logging.INFO)
